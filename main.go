@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/yugo-ibuki/claude-project-context-prompt-generator/goquestions"
-	"github.com/yugo-ibuki/claude-project-context-prompt-generator/typescript"
+	"github.com/yugo-ibuki/cpcpg/goquestions"
+	"github.com/yugo-ibuki/cpcpg/typescript"
 	"os"
 
 	"github.com/AlecAivazis/survey/v2"
@@ -12,8 +12,8 @@ import (
 
 func main() {
 	var rootCmd = &cobra.Command{
-		Use:   "prompt-generate-cli",
-		Short: "prompt-generate-cli is a CLI tool that generates a prompt.",
+		Use:   "cpcpg",
+		Short: "claude-project-context-prompt-generator is a CLI tool that generates a prompt.",
 		Run:   run,
 	}
 

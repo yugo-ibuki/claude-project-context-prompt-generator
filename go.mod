@@ -1,4 +1,4 @@
-module github.com/yugo-ibuki/claude-project-context-prompt-generator
+module github.com/yugo-ibuki/cpcpg
 
 go 1.22.0
 
