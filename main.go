@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/yugo-ibuki/prompt-generate-cli/goquestions"
-	"github.com/yugo-ibuki/prompt-generate-cli/typescript"
+	"github.com/yugo-ibuki/claude-project-context-prompt-generator/goquestions"
+	"github.com/yugo-ibuki/claude-project-context-prompt-generator/typescript"
 	"os"
 
 	"github.com/AlecAivazis/survey/v2"

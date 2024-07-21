@@ -1,4 +1,4 @@
-module github.com/yugo-ibuki/prompt-generate-cli
+module github.com/yugo-ibuki/claude-project-context-prompt-generator
 
 go 1.22.0
 
